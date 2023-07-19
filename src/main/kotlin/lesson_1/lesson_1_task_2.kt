@@ -8,10 +8,10 @@ fun main() {
     println("totalOrders: $totalOrders")
     println("purchaseThankYouText: $purchaseThankYouText")
 
-    //val employeeCount: Int = 2000
-    //println("employeeCount: $employeeCount")
+    var employeeCount: Int = 2000
+    println("employeeCount: $employeeCount")
 
-    val newEmployeeCount: Int = 1999
-    println("newEmployeeCount: $newEmployeeCount")
+    employeeCount = 1999
+    println("employeeCount: $employeeCount")
 
 }
