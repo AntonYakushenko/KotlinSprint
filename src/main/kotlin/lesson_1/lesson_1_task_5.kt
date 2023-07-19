@@ -7,5 +7,5 @@ fun main() {
     val minutes: Int = (totalSeconds % 3600) / 60
     val seconds: Int = totalSeconds % 60
 
-    println("${String.format("%02d", hours)}:${String.format("%02d", minutes)}:${String.format("%02d", seconds)}")
+    println("%02d:%02d:%02d".format(hours, minutes, seconds))
 }
